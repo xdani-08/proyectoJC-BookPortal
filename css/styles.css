@@ -2,20 +2,42 @@
     margin: 5px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: aliceblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 
+.nav__bar{
+    width: auto;
+    padding: 10px 25px;
+}
+
+.nav-link{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:white
+}
 
 h1{
     font-size: 40px;
+    color: #ffff
+}
+
+.eslogan{
+    color: #ffff
 }
 
 a{
     text-decoration: none;
-    color: #1a5eaf;
+    color: #7b506f;
 }
 
 .logo{
@@ -31,23 +53,13 @@ a{
 header{
     display: flex;
     min-height: 80px;
-    background-color: antiquewhite;
+    background-color: #fac934;
     justify-content: space-between;
     align-items:center;
 }
 
-.nav__bar{
-    width: auto;
-    padding: 10px 25px;
-}
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
-
-nav a:hover{
-    color:white
+.descripcion{
+    font-size: 20px;
 }
 
 @media (max-width:730px){
