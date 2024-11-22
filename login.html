@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookPortal | Inicio</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../assets/images/transparent_white.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="assets/images/transparent_white.ico">
 </head>
 
 <body>
     <header>
-        <a href="../index.html" class="logo">
-            <img src="../assets/images/yellow_80px.jpg" alt="logo">
+        <a href="index.html" class="logo">
+            <img src="assets/images/yellow_80px.jpg" alt="logo">
             <h1>BookPortal</h1>
         </a>
 
         <p class="eslogan">"Enamórate de la lectura"</p>
 
         <nav class="nav__bar">
-                <a href="../index.html" class="nav-link">Inicio</a>
+                <a href="index.html" class="nav-link">Inicio</a>
                 <a href="" class="nav-link">Géneros Literarios</a>
                 <a href="" class="nav-link">Contáctanos</a>
-                <a href="../login.html" class="nav-link">Iniciar Sesión</a>
+                <a href="login.html" class="nav-link">Iniciar Sesión</a>
         </nav>
     </header>
 
     <section>
         <h2>Iniciar Sesión</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea laborum dignissimos a explicabo eius, velit iure dolore repudiandae nesciunt adipisci aliquam officia itaque cumque? Aspernatur culpa delectus pariatur tenetur! Quia!</p>
+        <form id="formLogin">
+            <input type="email" id="correoLogin" placeholder="Correo electrónico" required>
+            <input type="password" id="contrasenaLogin" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+    
+            <p>¿No tienes una cuenta? <a href="registro.html">Registrar</a></p>
+        </form>
+    
+        <script src="js/login.js"></script>
     </section>
 </body>
 </html>
